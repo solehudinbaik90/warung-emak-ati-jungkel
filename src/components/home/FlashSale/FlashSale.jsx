@@ -26,7 +26,7 @@ export default function FlashSale({ endDate = "2026-12-31T22:43:25" }) {
         <h2 className="text-lg font-bold text-title">⚡ Flash Sale</h2>
         <span className="text-sm text-price">
           {remaining
-            ? \`Berakhir dalam \${remaining.hours} Jam : \${remaining.minutes} Menit : \${remaining.seconds}s\`
+            ? `Berakhir dalam ${remaining.hours} Jam : ${remaining.minutes} Menit : ${remaining.seconds}s`
             : "Sudah Berakhir"}
         </span>
       </div>
@@ -34,4 +34,3 @@ export default function FlashSale({ endDate = "2026-12-31T22:43:25" }) {
     </section>
   );
 }
-
