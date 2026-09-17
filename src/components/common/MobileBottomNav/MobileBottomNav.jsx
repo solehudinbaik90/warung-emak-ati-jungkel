@@ -18,9 +18,9 @@ export default function MobileBottomNav() {
         <Link
           key={item.to}
           to={item.to}
-          className={\`flex-1 flex flex-col items-center py-2 text-xs relative \${
+          className={`flex-1 flex flex-col items-center py-2 text-xs relative ${
             pathname === item.to ? "text-main" : "text-menuFont"
-          }\`}
+          }`}
         >
           <span className="text-lg">{item.icon}</span>
           {item.to === "/keranjang" && totalItems > 0 && (
@@ -34,4 +34,3 @@ export default function MobileBottomNav() {
     </nav>
   );
 }
-
