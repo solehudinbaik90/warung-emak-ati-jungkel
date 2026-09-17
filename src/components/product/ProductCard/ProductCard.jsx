@@ -7,7 +7,7 @@ export default function ProductCard({ product }) {
 
   return (
     <Link
-      to={\`/produk/\${product.slug}\`}
+      to={`/produk/${product.slug}`}
       className="block bg-white border border-item-border rounded-md overflow-hidden hover:shadow-card transition-shadow"
     >
       <div className="relative aspect-square bg-headerMenu">
@@ -34,4 +34,3 @@ export default function ProductCard({ product }) {
     </Link>
   );
 }
-
