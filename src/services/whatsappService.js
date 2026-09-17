@@ -23,5 +23,5 @@ export function buildOrderMessage({ items, customer, shippingRegion, shippingCos
 }
 
 export function buildWhatsappLink(message, number = WHATSAPP_NUMBER) {
-  return `https://wa.me{number}?text=${encodeURIComponent(message)}`;
+  return `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
 }
