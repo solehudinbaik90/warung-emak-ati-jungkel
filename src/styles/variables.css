@@ -1,0 +1,30 @@
+:root {
+  --main-color: #03ac0e;
+  --main-link-color: #03ac0e;
+  --main-link-hover: #434343;
+  --main-background: #ffffff;
+  --main-text: #212121;
+  --main-border: #aab4c8;
+  --header-menu: #F2F4F7;
+  --menu-font-color: #656C7B;
+  --header-height: 64px;
+  --header-bg: #ffffff;
+  --header-border: #E6E9F0;
+  --search-border: #B3BBC9;
+  --search-button: #7C8597;
+  --sale-bg-left: #3fb046;
+  --sale-bg-right: #00aa5b;
+  --price-color: #ff5722;
+  --note-background: #ebf6f6;
+  --label-background: #f3673b;
+  --label-author: #daf5db;
+  --chat-hover: #ebffef;
+  --notif-background: #ef144a;
+  --button-hover: #12883D;
+  --title-color: #212121;
+  --meta-color: #6d7588;
+  --item-border: #E5E7E9;
+  --footer-background: #ffffff;
+  --footer-text-link: #656C7B;
+  --footer-line: #B3BBC9;
+}
