@@ -7,7 +7,7 @@ export default function SearchBar() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    if (query.trim()) navigate(\`/cari?q=\${encodeURIComponent(query.trim())}\`);
+    if (query.trim()) navigate(`/cari?q=${encodeURIComponent(query.trim())}`);
   }
 
   return (
