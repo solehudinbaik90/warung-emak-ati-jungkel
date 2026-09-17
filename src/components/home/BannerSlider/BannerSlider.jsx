@@ -17,9 +17,9 @@ export default function BannerSlider() {
           <Link
             key={banner.id}
             to={banner.link}
-            className={\`absolute inset-0 transition-opacity duration-500 \${
+            className={`absolute inset-0 transition-opacity duration-500 ${
               i === index ? "opacity-100" : "opacity-0"
-            }\`}
+            }`}
           >
             <img src={banner.image} alt={banner.alt} className="w-full h-full object-cover" />
           </Link>
@@ -30,12 +30,11 @@ export default function BannerSlider() {
           <button
             key={banner.id}
             onClick={() => setIndex(i)}
-            className={\`w-2 h-2 rounded-full \${i === index ? "bg-main" : "bg-item-border"}\`}
-            aria-label={\`Slide \${i + 1}\`}
+            className={`w-2 h-2 rounded-full ${i === index ? "bg-main" : "bg-item-border"}`}
+            aria-label={`Slide ${i + 1}`}
           />
         ))}
       </div>
     </section>
   );
 }
-
