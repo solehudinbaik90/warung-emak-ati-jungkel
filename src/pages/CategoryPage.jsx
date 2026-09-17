@@ -18,7 +18,7 @@ export default function CategoryPage() {
   return (
     <div>
       <h1 className="text-lg font-bold text-title mb-3">
-        {category ? \`\${category.icon} \${category.name}\` : "Kategori"}
+        {category ? `${category.icon} ${category.name}` : "Kategori"}
       </h1>
       {products === null ? <LoadingSpinner /> : <ProductGrid products={products} />}
     </div>
