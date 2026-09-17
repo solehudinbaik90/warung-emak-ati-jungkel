@@ -23,7 +23,7 @@ export default function Header() {
             {categories.map((cat) => (
               <Link
                 key={cat.id}
-                to={\`/kategori/\${cat.id}\`}
+                to={`/kategori/\${cat.id}`}
                 className="flex justify-between px-4 py-1.5 text-sm text-title hover:bg-headerMenu"
               >
                 <span>{cat.icon} {cat.name}</span>
