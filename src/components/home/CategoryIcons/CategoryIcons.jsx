@@ -7,7 +7,7 @@ export default function CategoryIcons() {
       {categories.map((cat) => (
         <Link
           key={cat.id}
-          to={\`/kategori/\${cat.id}\`}
+          to={`/kategori/${cat.id}`}
           className="flex flex-col items-center gap-1 text-center p-2 rounded-md hover:bg-headerMenu"
         >
           <span className="text-2xl">{cat.icon}</span>
@@ -17,4 +17,3 @@ export default function CategoryIcons() {
     </section>
   );
 }
-
